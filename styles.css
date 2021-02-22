@@ -75,3 +75,12 @@ body{
     font-size: 26pt;
     margin-bottom: 35px;
 }
+
+.ask_form{
+    width: 320px;
+    margin: 0 auto;
+    margin-top: 50px;
+    outline: 4px solid green;
+    border: 25px solid #D3D3D3;
+    background: #D3D3D3;
+}

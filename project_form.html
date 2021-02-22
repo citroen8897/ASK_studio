@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Заявка на проект</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="header">
+    <a href="index.html"><img class="logo" src="ask_logo.png" width="250px"></a>
+    <ul class="headerMenu">
+        <li><a href="contacts.html">КОНТАКТЫ</a></li>
+        <li><a href="faire.html">УСЛУГИ</a></li>
+        <li><a href="">ПОРТФОЛИО</a></li>
+        <li><a href="project_form.html">ЗАЯВКА НА ПРОЕКТ</a></li>
+    </ul>
+</div>
+
+<form class="ask_form" action="" method="post" enctype="multipart/form-data">
+    <div>
+        <input type="text" placeholder="Имя" name="nom" required>
+    </div>
+    <br>
+    <div>
+        <input type="text" placeholder="Фамилия" name="prenom" required>
+    </div>
+    <br>
+    <div>
+        Впервые обращаетесь в ASK_studio?<br>
+        <span>Да</span>
+        <input type="radio" name="question" value="Oui" required>
+        <span>Нет</span>
+        <input type="radio" name="question" value="Non" required>
+    </div>
+    <br>
+    <div>
+        <select name="user_city" id="" required>
+            <option value="">Выберите тематику вопроса</option>
+            <option value="0">Телеграм-бот</option>
+            <option value="1">Сайт-визитка</option>
+            <option value="2">Сайт-магазин</option>
+            <option value="3">Custom-сайт</option>
+            <option value="4">Панель управления БД</option>
+            <option value="5">Администрирование БД</option>
+            <option value="6">Обучение</option>
+            <option value="7">Консультация</option>
+            <option value="8">Другой вопрос</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <textarea placeholder="Оставьте Ваши контакты" name="user_info_lettre" cols="38" rows="10" required></textarea>
+    </div>
+    <br>
+    <label for="">Загрузите Ваше ТЗ</label>
+    <p><input type="file" name="f"></p>
+    <br>
+    <div>
+       <span>Соглашаюсь с правилами сайта</span>
+       <input type="checkbox" required>
+    </div>
+    <br>
+    <button type="submit">
+        Отправить заявку
+    </button>
+</form>
+
+</body>
+</html>
