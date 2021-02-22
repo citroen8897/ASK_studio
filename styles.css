@@ -1,0 +1,77 @@
+body{
+    background: url(pablo.png) no-repeat;
+    background-size: 110%;
+}
+
+.headerMenu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14pt;
+}
+
+.headerMenu li{
+    display: inline-block;
+    margin-left: 45px;
+}
+
+.logo{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-right: 400px;
+}
+
+.headerMenu{
+    display: inline-block;
+}
+
+.headerMenu li a:hover{
+    color: brown;
+}
+
+.mainMenu li{
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 125px;
+}
+
+.main{
+    margin-top: 260px;
+}
+
+.main p{
+    text-align: center;
+    color: white;
+    font-size: 26pt;
+}
+
+.line{
+    width: 30%;
+    height: 2px;
+    background: green;
+    margin: 0 auto;
+}
+
+.faire_main{
+    margin-top: 260px;
+}
+
+.faire_menu{
+    display: inline-block;
+    margin-top: 55px;
+}
+
+.faire_menu li{
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    color: white;
+    font-size: 12pt;
+}
+
+.faire_main p{
+    text-align: center;
+    color: white;
+    font-size: 26pt;
+    margin-bottom: 35px;
+}
